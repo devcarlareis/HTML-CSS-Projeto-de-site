@@ -25,6 +25,11 @@ header {
     width: 100%;
 }
 
+/* hide on descktop*/
+.nav-container .btn-menumobile {
+    display: none;
+}
+
 /*navbar*/
 nav {
     position: fixed;
@@ -677,4 +682,12 @@ footer .wrapper:after {
         padding: 0;
         margin-bottom: 3em;
     }
+}
+
+@media screen and (max-width: 576px){
+    .nav-container .btn-menumobile {
+        display: block !important;
+    }
+
+    
 }
