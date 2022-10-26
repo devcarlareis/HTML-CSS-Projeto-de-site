@@ -689,5 +689,50 @@ footer .wrapper:after {
         display: block !important;
     }
 
-    
+    html, body {
+        overflow: hidden;
+    }
+
+    nav {
+        height: 4em;
+    }
+
+    #logo {
+        left: 2em;
+        height: 2em;
+        width: 2em;
+        margin-top: 1em;
+    }
+
+    .btn-menumobile {
+        display: block;
+        font-size: 1.75em;
+        color: #CCC;
+        position: absolute;
+        right: 1.5em;
+        top: .75em;
+    }
+
+    .nav-container ul {
+        position: relative;
+        top: 4em;
+        height: 3em;
+        line-height: 3em;
+        display: none;
+    }
+
+    .nav-container ul li {
+        display: block;
+        background-color: #FFF;
+        margin: 0;
+        border-top: 1px solid #CCC;
+    }
+
+    .nav-container ul li a {
+        font-size: 1em;
+    }
+
+    .open {
+        display: block !important;
+    }
 }
