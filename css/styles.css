@@ -700,6 +700,21 @@ footer .wrapper:after {
         padding-right: 2em;
     }
 
+    /* find jobs page */
+    #findjobs #search-form input[type=submit] {
+        margin-bottom: 0;
+    }
+
+    #findjobs #type-filter ul li {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+        box-sizing: border-box;
+    }
+
+    #findjobs #type-filter ul li:last-child {
+        border-bottom: none;
+        border-right: none;
+    }
 }
 
 @media screen and (max-width:768px) {
